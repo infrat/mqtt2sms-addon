@@ -8,9 +8,12 @@
 ![Supports i386 Architecture][i386-shield]
 
 
-The SMS Modem MQTT Broker Add-on allows you to integrate the [SMS Modem MQTT Broker for Node.js](https://github.com/infrat/mqtt2sms-broker) into your Home Assistant installation. It provides seamless communication between MQTT clients and devices equipped with SMS modems, enabling bidirectional control and monitoring of your SMS-enabled devices. This addon is 
+The SMS Modem MQTT Broker Add-on allows you to integrate the [SMS Modem MQTT Broker for Node.js](https://github.com/infrat/mqtt2sms-broker) into your Home Assistant installation. It provides seamless communication between MQTT clients and devices equipped with SMS modems, enabling bidirectional control and monitoring of your SMS-enabled devices.
 
 **This add-on is configured by default to work with the control panel of the Polish manufacturer Satel Perfecta 16, but with little effort it can be used to control any device that provides an SMS interface.**
+
+Look on how it works with Satel Perfecta 16 WRL:
+https://www.youtube.com/shorts/O_2iIL2zDMQ
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Finfrat%2Fmqtt2sms-addon)
 ## Features
