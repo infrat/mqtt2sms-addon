@@ -12,6 +12,7 @@ The SMS Modem MQTT Broker Add-on allows you to integrate the [SMS Modem MQTT Bro
 
 **This add-on is configured by default to work with the control panel of the Polish manufacturer Satel Perfecta 16, but with little effort it can be used to control any device that provides an SMS interface.**
 
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Finfrat%2Fmqtt2sms-addon)
 ## Features
 
 - **Home Assistant Integration**: This add-on is designed to be compatible with Home Assistant, a popular open-source home automation platform. It can be easily installed and managed using the Home Assistant Supervisor.
