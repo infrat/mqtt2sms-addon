@@ -36,25 +36,25 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 ### Installation Steps
 
-1. Open the Home Assistant web interface.
+1. Open your Home Assistant web interface.
 
-2. Click on your user profile in the bottom-left corner and select "Home Assistant Settings" from the menu.
+2. Go to your Home Assistant settings
 
-3. In the sidebar, click on "Add-ons".
+3. In the settings, click on "Add-ons" item.
 
-4. Click on the "+" button to add a new add-on repository.
+4. Go to 'Add-on Store' (bottom right)
 
-5. Enter the following repository URL: `https://github.com/infrat/mqtt2sms-addon`.
+5. Look for three vertical dots (top right), click on them and select 'Repositories'
 
-6. Click "Add" to add the repository.
+6. In the bottom enter the following repository URL: `https://github.com/infrat/mqtt2sms-addon`.
 
-7. Close the repository dialog.
+7. Click "Add" to add the repository.
 
-8. In the Add-ons page, you should now see the "SMS Modem MQTT Broker" add-on listed.
+8. Close the repository dialog.
 
-9. Click on the "SMS Modem MQTT Broker" add-on.
+9. In the Add-ons page, you should now see the "MQTT2SMS Broker Addon" add-on listed.
 
-10. Review the add-on details, configuration options, and any prerequisites mentioned.
+10. Click on the "SMS Modem MQTT Broker" add-on.
 
 11. Click on the "INSTALL" button to install the add-on.
 
@@ -62,7 +62,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 13. Once the installation is finished, you can configure the add-on by clicking on the "CONFIGURE" tab.
 
-14. Enter the required configuration parameters, such as MQTT broker settings, SMS modem details, and authentication options.
+14. Enter the required configuration parameters. The most of configuration params can be left with their default values. The only two you need to setup are 'Alarm SMS number' which should be set to you Alarm Panel GSM number, and 'Gammu device path' which should be set to your GSM modem device (usually it's something like '/dev/ttyUSB0' or '/dev/ttyUSB1')
 
 15. After configuring the add-on, click on "SAVE" to apply the changes.
 
