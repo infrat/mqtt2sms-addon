@@ -38,7 +38,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 ### Installation Steps
 
-1. Open your Home Assistant web interface.
+1. Open your Home Assistant.
 
 2. Go to your Home Assistant settings
 
