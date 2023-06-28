@@ -1,0 +1,52 @@
+---
+configuration:
+  COMMANDS_TOPIC:
+    name: Commands topic
+    description: >-
+      The MQTT topic for alarm commands
+  STATE_TOPIC:
+    name: State topic
+    description: The MQTT topic for alarm state
+  SMSGW_OUTGOING_TOPIC:
+    name: SMS gateway outgoing topic
+    description: >-
+      The MQTT topic for SMS outgoing exchange
+  SMSGW_INCOMING_TOPIC:
+    name: SMS gateway incoming topic
+    description: >-
+      The MQTT topic for SMS incoming exchange
+  ALARM_SMS_NUMBER:
+    name: Alarm SMS number
+    description: GSM SMS number for your alarm
+  MQTT_BROKER_URL:
+    name: MQTT broker URL
+    description: >-
+      The URL of your MQTT broker you want to use with the Gateway
+  MQTT_USER:
+    name: MQTT username
+  MQTT_PASSWORD:
+    name: MQTT password
+  ALARM_DEVICE:
+    name: Alarm device SMS2STATES mapping
+    description: >-
+      Name of the alarm device mapping used for communication. When 'custom' selected, the settings below will be used
+  LOG_LEVEL:
+    name: Log level
+    description: >-
+      Log level
+  GAMMU_DEVICE:
+    name: Gammu device (GSM modem) path
+    description: >-
+      Path to system device representing your GSM modem
+  GAMMU_DEVICE_PIN:
+    name: Gammu device (GSM modem) path
+    description: >-
+      Path to system device representing your GSM modem
+  CUSTOM_SMS2STATES_MAPPING:
+    name: Custom SMS2STATES mapping
+    description: >-
+      Custom mappings of incoming SMSes from the alarm device to MQTT Alarm states in Home Assistant
+  COMMANDS2SMS_MAPPING:
+    name: COMMANDS2SMS mapping
+    description: >-
+      Mapping for commands coming from MQTT Alarm in Home Assistant to SMS commands defined in alarm device
