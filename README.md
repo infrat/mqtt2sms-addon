@@ -89,7 +89,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 4. Enjoy controlling and monitoring your SMS-enabled devices through Home Assistant!
 
 ### Default configuration supporting Satel Perfecta Alarm Panel
-If you want to use this Add-on with its default configuration to integrate your Home Assistant with Satel Perfecta Alarm panel, simply add following configuration to your `configuration.yaml`
+If you want to use this Add-on with its default configuration to integrate your Home Assistant with Satel Perfecta Alarm panel, add following configuration to your `configuration.yaml`
 ``` yaml
 mqtt:
   alarm_control_panel:
@@ -97,6 +97,7 @@ mqtt:
       command_topic: "home/alarm/set"
       code: 1234    
 ```
+Also you need to configure you Perfecta to allow SMS commands that are sent from this integration. More details you can see in [Alarm panel setup](https://github.com/infrat/mqtt2sms-broker/blob/master/docs/installation.md#alarm-panel-setup).
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
