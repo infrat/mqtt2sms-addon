@@ -2,7 +2,7 @@
 name: "MQTT2SMS Broker Add-on for Home Assistant"
 description: "Integrate the SMS Modem MQTT Broker for Node.js into your Home Assistant installation"
 url: "https://github.com/infrat/mqtt2sms-addon/tree/main/example"
-version: "1.0.5"
+version: "1.0.4"
 slug: "mqtt2sms-addon"
 uart: true
 init: false
