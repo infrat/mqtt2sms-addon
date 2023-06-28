@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: MQTT2SMS Broker Addon
+url: 'https://github.com/infrat/mqtt2sms-addon'
+maintainer: Jarek Surmacz <sp9hgn@gmail.com>

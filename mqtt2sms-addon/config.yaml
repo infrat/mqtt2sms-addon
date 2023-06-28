@@ -1,0 +1,73 @@
+---
+name: "SMS Modem MQTT Broker Add-on for Home Assistant"
+description: "Integrate the SMS Modem MQTT Broker for Node.js into your Home Assistant installation"
+url: "https://github.com/infrat/mqtt2sms-addon/tree/main/example"
+version: "1.0.0"
+slug: "mqtt2sms-addon"
+uart: true
+init: false
+options:
+  GAMMU_DEVICE: null
+  COMMANDS_TOPIC: "home/alarm/set"
+  STATE_TOPIC: "home/alarm"
+  SMSGW_OUTGOING_TOPIC: "home/smsgateway/outgoing"
+  SMSGW_INCOMING_TOPIC: "home/smsgateway/incoming"
+  ALARM_SMS_NUMBER: null
+  MQTT_BROKER_URL: "mqtt://192.168.1.11"
+  MQTT_USER: "mqtt"
+  MQTT_PASSWORD: "mqtt"
+  ALARM_DEVICE: satel-perfecta-pl
+  LOG_LEVEL: "info"
+  CUSTOM_SMS2STATES_MAPPING: 
+    - smsKeywords: 
+      - załączenie
+      - czuwania
+      - nocnego
+      mqttState: armed_night
+    - smsKeywords: 
+      - załączenie
+      - czuwania
+      - strefa 1
+      mqttState: armed_away
+    - smsKeywords: 
+      - wyłączenie
+      mqttState: disarmed
+  COMMANDS2SMS_MAPPING:
+    - command: ARM_AWAY
+      mqttState: arming
+      smsCommand: ALLON
+    - command: ARM_NIGHT
+      mqttState: arming
+      smsCommand: NIGHTON
+    - command: DISARM
+      mqttState: disarming
+      smsCommand: DISARM
+
+schema:
+  GAMMU_DEVICE: str
+  GAMMU_PIN: "int?"
+  COMMANDS_TOPIC: str
+  STATE_TOPIC: str
+  SMSGW_OUTGOING_TOPIC: str
+  SMSGW_INCOMING_TOPIC: str
+  ALARM_SMS_NUMBER: str
+  MQTT_BROKER_URL: str
+  MQTT_USER: str
+  MQTT_PASSWORD: password
+  ALARM_DEVICE: list(satel-perfecta-pl|custom)
+  LOG_LEVEL: list(trace|info|error)
+  CUSTOM_SMS2STATES_MAPPING:
+    - smsKeywords: 
+      - str
+      mqttState: str
+  COMMANDS2SMS_MAPPING:
+    - command: str
+      mqttState: str
+      smsCommand: str
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+image: "ghcr.io/infrat/{arch}-mqtt2sms-addon"
