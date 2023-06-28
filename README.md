@@ -33,6 +33,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 ### Prerequisites
 
 - A running instance of Home Assistant with Supervisor.
+- USB GSM modem plugged and recognized by your host (see [GSM modem + SIM card](https://github.com/infrat/mqtt2sms-broker/blob/master/docs/installation.md#gsm-modem--sim-card))
 
 ### Installation Steps
 
@@ -62,7 +63,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 13. Once the installation is finished, you can configure the add-on by clicking on the "CONFIGURE" tab.
 
-14. Enter the required configuration parameters. The most of configuration params can be left with their default values. The only two you need to setup are 'Alarm SMS number' which should be set to you Alarm Panel GSM number, and 'Gammu device path' which should be set to your GSM modem device (usually it's something like '/dev/ttyUSB0' or '/dev/ttyUSB1')
+14. Enter the required configuration parameters. The most of configuration params can be left with their default values. The only two you need to setup are 'Alarm SMS number' which should be set to you Alarm Panel GSM number, and 'Gammu device path' which should be set to your GSM modem device (usually it's something like `/dev/ttyUSB0` or `/dev/ttyUSB1`)
 
 15. After configuring the add-on, click on "SAVE" to apply the changes.
 
