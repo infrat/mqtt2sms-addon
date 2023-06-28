@@ -54,7 +54,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 9. In the Add-ons page, you should now see the "MQTT2SMS Broker Addon" add-on listed.
 
-10. Click on the "SMS Modem MQTT Broker" add-on.
+10. Click on the "MQTT2SMS Broker" add-on.
 
 11. Click on the "INSTALL" button to install the add-on.
 
@@ -70,7 +70,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 1. After saving the configuration, go back to the add-on details page.
 
-2. Click on the "START" button to start the SMS Modem MQTT Broker add-on.
+2. Click on the "START" button to start the MQTT2SMS Broker add-on.
 
 3. Monitor the add-on logs to ensure everything starts up correctly and there are no errors.
 
