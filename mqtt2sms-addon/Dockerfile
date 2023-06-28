@@ -16,7 +16,7 @@ RUN echo "deb http://deb.debian.org/debian bullseye-backports main" >> "/etc/apt
 # gammu spool permission fix: https://github.com/gammu/gammu/issues/329
     && chown -R gammu:gammu /var/spool/gammu \
 # download repository
-    && curl-L https://github.com/infrat/mqtt2sms-broker/archive/refs/tags/v0.1.1.tar.gz > mqtt-broker.tar.gz \
+    && curl -L https://github.com/infrat/mqtt2sms-broker/archive/refs/tags/v0.1.1.tar.gz > mqtt-broker.tar.gz \
     && mkdir mqtt2sms && cd mqtt2sms \
     && tar -xf ../mqtt-broker.tar.gz --strip-components 1 \
 # cleanup leftovers
