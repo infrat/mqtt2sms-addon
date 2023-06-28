@@ -2,7 +2,6 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 WORKDIR /usr/src
-ARG GITHUB_TOKEN
 RUN echo "deb http://deb.debian.org/debian bullseye-backports main" >> "/etc/apt/sources.list.d/sources.list" \
     && apt-get update \
 # install nodejs && prepare environment

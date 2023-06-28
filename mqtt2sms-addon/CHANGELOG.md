@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.0.3
+
+- Repository cleanup
 ## 1.0.2
 
 - Unsupported architecture (armhf) removed
