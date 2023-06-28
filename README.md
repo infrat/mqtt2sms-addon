@@ -41,7 +41,7 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 2. Go to your Home Assistant settings
 
-3. In the settings, click on "Add-ons" item.
+3. In the settings, click on 'Add-ons' item.
 
 4. Go to 'Add-on Store' (bottom right)
 
@@ -49,33 +49,33 @@ To install and use the SMS Modem MQTT Broker Add-on in Home Assistant, you can f
 
 6. In the bottom enter the following repository URL: `https://github.com/infrat/mqtt2sms-addon`.
 
-7. Click "Add" to add the repository.
+7. Click 'Add' to add the repository.
 
 8. Close the repository dialog.
 
-9. In the Add-ons page, you should now see the "MQTT2SMS Broker Addon" add-on listed.
+9. In the Add-ons page, you should now see the 'MQTT2SMS Broker Addon' add-on listed.
 
-10. Click on the "MQTT2SMS Broker" add-on.
+10. Click on the 'MQTT2SMS Broker' add-on.
 
-11. Click on the "INSTALL" button to install the add-on.
+11. Click on the 'INSTALL' button to install the add-on.
 
 12. Wait for the installation to complete. This may take a few moments.
 
-13. Once the installation is finished, you can configure the add-on by clicking on the "CONFIGURE" tab.
+13. Once the installation is finished, you can configure the add-on by clicking on the 'CONFIGURE' tab.
 
 14. Enter the required configuration parameters. The most of configuration params can be left with their default values. The only two you need to setup are 'Alarm SMS number' which should be set to you Alarm Panel GSM number, and 'Gammu device path' which should be set to your GSM modem device (usually it's something like `/dev/ttyUSB0` or `/dev/ttyUSB1`)
 
-15. After configuring the add-on, click on "SAVE" to apply the changes.
+15. After configuring the add-on, click on 'SAVE' to apply the changes.
 
 ### Starting and Managing the Add-on
 
 1. After saving the configuration, go back to the add-on details page.
 
-2. Click on the "START" button to start the MQTT2SMS Broker add-on.
+2. Click on the 'START' button to start the MQTT2SMS Broker add-on.
 
 3. Monitor the add-on logs to ensure everything starts up correctly and there are no errors.
 
-4. You can access the add-on logs by clicking on the "LOGS" tab.
+4. You can access the add-on logs by clicking on the 'LOGS' tab.
 
 ### Integration with Home Assistant
 
