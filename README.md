@@ -97,7 +97,7 @@ mqtt:
       command_topic: "home/alarm/set"
       code: 1234    
 ```
-Also you need to configure you Perfecta to allow SMS commands that are sent from this integration. More details you can see in [Alarm panel setup](https://github.com/infrat/mqtt2sms-broker/blob/master/docs/installation.md#alarm-panel-setup).
+Also you need to configure you Perfecta to allow SMS commands that are sent from this integration. More details you can see in [Satel Perfecta setup](https://github.com/infrat/mqtt2sms-broker/blob/master/docs/installation.md#satel-perfecta-setup).
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
