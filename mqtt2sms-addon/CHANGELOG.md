@@ -2,7 +2,7 @@
 
 ## 1.0.5
 
-- Device permissions access
+- Device permissions fix
 
 ## 1.0.4
 
