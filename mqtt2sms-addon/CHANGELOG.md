@@ -2,6 +2,10 @@
 
 ## 1.0.4
 
+- Device permissions access
+
+## 1.0.4
+
 - Main script permission fix
 - Add-on name update
 - minor changes in README
