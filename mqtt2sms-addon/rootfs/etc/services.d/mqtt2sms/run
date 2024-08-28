@@ -22,7 +22,9 @@ jq '.CUSTOM_SMS2STATES_MAPPING' config.json > mappings/sms2states/custom.json
 GAMMU_DEVICE=$(bashio::config 'GAMMU_DEVICE') GAMMU_PIN=$(bashio::config 'GAMMU_PIN') envsubst < /etc/gammu-smsdrc.base > /etc/gammu-smsdrc
 
 # Start gammu daemon
-/etc/init.d/gammu-smsd start
+start-stop-daemon --start --quiet --pidfile /var/run/gammu-smsd.pid \
+		--exec /usr/bin/gammu-smsd -- --daemon --user root --group root \
+        --pid /var/run/gammu-smsd.pid
 
 # Execute gateways + log output from gammu
 node mqtt2gammu.js & node app.js & tail -f /var/log/gammu
